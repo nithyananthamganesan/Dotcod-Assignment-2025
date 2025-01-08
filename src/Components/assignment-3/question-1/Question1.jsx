@@ -8,6 +8,7 @@ const Question1 = () => {
     const [active, setActive] = useState(false)
   return (
     <div>
+        <p>1. How do you initialize multiple state variables using useState in a functional component?</p>
         <div>
             <p>count: {count}</p> 
             <button onClick={()=>setCount(count+1)}>+</button>
